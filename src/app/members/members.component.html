@@ -13,12 +13,21 @@
     </thead>
     <tbody>
       <tr *ngFor='let member of members'>
-        <td>{{member?.id}}</td>
+        <td>
+          <button type="submit" class="btn btn-default pull-left" (click)="editMemberByID(member.id)" >
+            {{member?.id}}
+          </button> 
+        </td>
         <td>{{member?.firstName}}</td>
         <td>{{member?.lastName}}</td>
         <td>{{member?.jobTitle}}</td>
         <td>{{member?.team}}</td>
         <td>{{member?.status}}</td>
+        <td>
+          <button type="submit" class="btn btn-danger pull-right" (click)="deleteMemberById(member.id)" >
+            Delete
+          </button>
+        </td>
       </tr>
     </tbody>
   </table>

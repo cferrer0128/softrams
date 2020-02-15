@@ -26,6 +26,9 @@ const ROUTES = [
     component: MembersComponent
   },
   {
+    path:'members/:id', component:MemberDetailsComponent
+  },
+  {
     path: 'login',
     component: LoginComponent
   }
