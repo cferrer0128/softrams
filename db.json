@@ -47,6 +47,14 @@
       "jobTitle": "Driver6",
       "status": null,
       "team": "Formula 2 - Car 54"
+    },
+    {
+      "id": 7,
+      "firstName": "CFerrerLagoChapala",
+      "lastName": "Ferrer",
+      "jobTitle": "Driver34",
+      "status": "Active",
+      "team": "Formula 1 - Car 8"
     }
   ],
   "teams": [

@@ -81,7 +81,7 @@ export class MemberDetailsComponent implements OnInit, OnChanges {
       firstName:form.controls.firstName.value,
       lastName:form.controls.lastName.value,
       jobTitle:form.controls.jobTitle.value,
-      status:form.controls.status.value,
+      status:form.controls.status.value?form.controls.status.value:'Active',
       team:form.controls.team.value
     } as any;
     
